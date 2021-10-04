@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Section from './components/Section/Section';
-import Statistics from './components/Statistics/Statistics';
-import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
+import Section from './components/Section/section';
+import Statistics from './components/Statistics/statistics';
+import FeedbackOptions from './components/FeedbackOptions/feedbackOptions';
 
 const options = ['good', 'bad', 'neutral'];
 

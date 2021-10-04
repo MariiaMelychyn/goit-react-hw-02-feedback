@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
-import s from './Statistics.module.css';
-import Notification from '../Notification/Notification';
+import s from './statistics.module.css';
+import Notification from '../Notification/notification';
 
 const Statistics = ({
-     good,
-     neutral,
-      bad, 
-      total, 
-      positiveFeedbackPercentage,
-    }) => (
+  good,
+  neutral,
+  bad,
+  total,
+  positiveFeedbackPercentage,
+}) => (
   <>
     {total ? (
       <ul className={s.box}>
